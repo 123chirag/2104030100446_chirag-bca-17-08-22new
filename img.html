@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      height: 'toggle'
+    });
+  });
+});
+$(document).ready(function(){
+  $(":image").css("background-color", "red");
+});
+</script> 
+</head>
+<body>
+<button>Start Animation</button>
+<div> <input type="image" src="download.jfif" width="300" height="299"></div>
+
+</body>
+</html>
